@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debuggers Club - Email Sender</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="Debuggers_png.png" alt="Debuggers Club Logo" class="logo">
+        </div>
+        
+        <div class="form-container">
+            <h1 class="title">🔒 Lockdown Event Invitation</h1>
+            <p class="subtitle">Send invitation emails to participants</p>
+            
+            <form id="emailForm" class="email-form">
+                <div class="input-group">
+                    <label for="emailInput" class="label">📧 Participant Email:</label>
+                    <input 
+                        type="email" 
+                        id="emailInput" 
+                        class="email-input" 
+                        placeholder="Enter participant's email address"
+                        required
+                    >
+                </div>
+                
+                <button type="submit" class="send-btn">
+                    <span class="btn-text">🚀 Send Invitation</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </form>
+            
+            <div id="status" class="status"></div>
+        </div>
+    </div>
+    
+    <div class="background-effects">
+        <div class="floating-particles"></div>
+        <div class="fog-layer"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
