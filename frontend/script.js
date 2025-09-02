@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         try {
-            const response = await fetch('/api/send-email', {
+            const response = await fetch('https://email-7h6r.onrender.com/api/send-email', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
